@@ -1,7 +1,9 @@
 # VINF
 V súbore preprocessing.py sa vykonáva predspracovanie dát na pôvodnom súbore interlanguage_links_en.ttl z DBPedie. Výsledkom spustenia tohto súboru je vytvorenie súboru shortenedFile.txt.
 
-V súbore indexing.py dochádza k indexovaniu. Výsledkom spustenia tohto súboru je vytvorenie zložky index, ak ešte neexistuje. Predpokladom na spustenie je prítomnosť súboru shortenedFile.txt, na ktorom sa index vytvára.
+V súbore indexing.py dochádza k indexovaniu. Výsledkom spustenia tohto súboru je vytvorenie zložky index, ak ešte neexistuje. Predpokladom na spustenie je prítomnosť súboru shortenedFile.txt, na ktorom sa index vytvára. V tomto repozitári je vzorka týchto dát s 200 riadkami, pôvodný súbor je uložený na Google Disku - https://drive.google.com/drive/folders/1pk5kKSuzGSqP5mcW57Lh8JvZ3989aJn1?usp=sharing
+
+V súbore statistics.py sa vykonávajú číselné štatistiky na súbore shortenedFile.txt, ktoré sú zhrnuté v dokumentácii v kapitole výsledkov na Google Disku - https://docs.google.com/document/d/1yDJgDgkJMmK91vx55miECs1SlhTRi6alGNQAhw9c89U/edit?usp=sharing
 
 Návod na spustenie:
 1. Ak máme stiahnutý súbor shortenedFile.txt, mali by sme spustiť súbor pre indexovanie - indexing.py, kde sa následne vytvorí zložka index.
